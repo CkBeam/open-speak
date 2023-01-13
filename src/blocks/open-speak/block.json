@@ -1,0 +1,24 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/block.json",
+    "apiVersion": 2,
+    "name": "open-speak/open-speak",
+    "title": "Open Speak",
+    "category": "widgets",
+    "description": "Adds a open speak widget",
+    "keywords": ["open speak"],
+    "version": "1",
+    "textdomain": "Open Speak",
+    "editorScript": "file:./index.js",
+    "attributes": {
+        "bgColor": {
+            "type": "string",
+            "default": "#EC642D"
+        },
+        "textColor": {
+            "type": "string",
+            "default": "#fff"
+        }
+    },
+    "style": "file:./index.css",
+    "script": "file:./frontend.js"
+}
